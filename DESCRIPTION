@@ -1,0 +1,26 @@
+Package: xdc
+Title: Decomposing Gaussian mixture distributions into potentially overlapping components
+Version: 0.0.0.1000
+Authors@R: 
+    c(person(given = "Nan",
+           family = "Zhang",
+           role = c("aut", "cre"),
+           email = "nzhang@american.edu"),
+    person(given = "Mo",
+           family = "Wang",
+           role = c("aut")),
+    person(given = "Heng",
+           family = "Xu",
+           role = c("aut")))   
+Description: What the package does (one paragraph).
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports:
+    future.apply,
+    Lmoments,
+    ggplot2,
+    reshape2,
+    dplyr
